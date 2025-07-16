@@ -38,7 +38,7 @@ const Todolist = () => {
 			.catch((error) => console.error("Error cargando tareas:", error));
 	};
 
-	// Agregar tarea (PUT con nueva lista)
+	
 	const agregarTarea = (e) => {
 		if (e.key === "Enter" && tarea.trim() !== "") {
 			const nuevaTarea = { label: tarea.trim(), done: false };
